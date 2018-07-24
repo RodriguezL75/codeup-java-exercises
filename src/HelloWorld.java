@@ -23,15 +23,15 @@ public class HelloWorld {
 
 
         //var myString3 = 3.14159;
-        System.out.println(myString3);
+//        System.out.println(myString3);
 
-        long myNumber = 123;
-//        if you try to insert a decimal 3.14 it will not compile.
-        System.out.println(myNumber);
-
-//we can use float this way as well:
-        float myNumber5 (float) = 3.14;
-        System.out.println(myNumber5);
+//        long myNumber = 123;
+////        if you try to insert a decimal 3.14 it will not compile.
+//        System.out.println(myNumber);
+//
+////we can use float this way as well:
+//        float myNumber5 (float) = 3.14;
+//        System.out.println(myNumber5);
 
 
         float myNumber2 = 3.14f;
@@ -50,11 +50,11 @@ public class HelloWorld {
 //        ++x increments the value of x & returns x ie 6 6
 
 //        var class;  get an error message
-        String Class
+//        String Class
 
 //        int x = 4;
 ////        x = x + 5; short hand version below
-        x +=5;
+//        x +=5;
 //        System.out.println(++x);
 
 //        int x = 3;
@@ -62,11 +62,11 @@ public class HelloWorld {
 //        y = y * x;  y *=x
 //        System.out.println(x *= y);
 
-        int x = 10;
-        int y = 2;
-        x = x / y; x /=y;
-        y = y - x; y _=x;
-        System.out.println(x*=y);
+//        int x = 10;
+//        int y = 2;
+//        x = x / y; x /=y;
+//        y = y - x; y _=x;
+//        System.out.println(x*=y);
 
 
 
