@@ -16,9 +16,9 @@ public class ControlFlowExercises {
 //    }
 //
 //Refactor using a loop instead
-        for (int i = 5; i <= 15; i++) {
-            System.out.println(i);
-        }}}
+//        for (int i = 5; i <= 15; i++) {
+//            System.out.println(i);
+//        }}}
 
 
 ////  Do While//
@@ -39,12 +39,6 @@ public class ControlFlowExercises {
 //            System.out.println("count is actually " + count);
 //
 //        }}}
-
-
-
-
-
-
 
 
 //Alter your loop to count backwards by 5's from 100 to -10.
@@ -79,7 +73,35 @@ public class ControlFlowExercises {
 //          System.out.println(i);
 //}}}
 
+//Fizzbuzz
+//
+//One of the most common interview questions for entry-level programmers is the FizzBuzz test. Developed by Imran Ghory, the test is designed to test basic looping and conditional logic skills.
+//
+//  Write a program that prints the numbers from 1 to 100.
 
+//        for (int i = 1; i <= 100; i++) {
+//            System.out.println(i);
+//        }
+//    }}
+
+//  For multiples of three print “Fizz” instead of the number
+        for (int i = 0; i <= 100; i++) {
+            if (i % 3 == 0)
+
+                System.out.println("Multiples of 3 Fizz" + (i));
+
+            if (i % 5 == 0)
+                System.out.println("Multiples of 5 Buzz" + (i));
+
+            if (i % 3 == 0 && i % 5 == 0)
+                System.out.println("Multiples of 3 & 5 FizzBuzz" + (i));
+
+    }}}
+
+
+
+//  For the multiples of five print “Buzz”.
+//  For numbers which are multiples of both three and five print “FizzBuzz”.
 
 
 
