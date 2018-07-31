@@ -38,25 +38,16 @@ import static java.lang.Integer.getInteger;
 //    }
 
 
-    public class MethodsExercises {
-
-        public static int getInteger(int min, int max){
-            Scanner sc = new Scanner(System.in);
-            if (!sc.hasNextInt()){
-                System.out.println("Not a number!");
-                return getInteger(min, max);
-            }
-            int userInput = sc.nextInt();
-            if
-
-
-
-
-
-
-
-
-        }
+//    public class MethodsExercises {
+//
+//        public static int getInteger(int min, int max){
+//            Scanner sc = new Scanner(System.in);
+//            if (!sc.hasNextInt()){
+//                System.out.println("Not a number!");
+//                return getInteger(min, max);
+//            }
+//            int userInput = sc.nextInt();
+//            if
 
 
 
@@ -70,7 +61,16 @@ import static java.lang.Integer.getInteger;
 
 
 
-    }
+
+
+
+
+
+
+
+
+
+//    }
 
 //        public static void main(String[] args) {
 //
@@ -103,11 +103,11 @@ import static java.lang.Integer.getInteger;
 
 
 
-        public static String getYesOrNo(Scanner sc) {
-            String userChoice;
-            do {
-                System.out.println("Do you wish to play again? [y/n]: ");
-                userChoice = sc.next().trim();
-                } while (!userChoice.equalsIgnoreCase("y") && !userChoice.equalsIgnoreCase("n"));
-            return userChoice;
-            }
+//        public static String getYesOrNo(Scanner sc) {
+//            String userChoice;
+//            do {
+//                System.out.println("Do you wish to play again? [y/n]: ");
+//                userChoice = sc.next().trim();
+//                } while (!userChoice.equalsIgnoreCase("y") && !userChoice.equalsIgnoreCase("n"));
+//            return userChoice;
+//            }
