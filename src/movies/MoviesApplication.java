@@ -5,7 +5,17 @@ import util.Input;
 
 public class MoviesApplication {
     public static void main(String[] args) {
+//        data type input & input name
+//        another option is to use Input.getInt(0,5) as a switch statement
+// switch(input.getInt(0, 5){
+//        case 0:
+//          System.exit(0); used to exit program
+//          break;
+//        case 1:
+//        for(Movie movie: movies){
+//          System.out.println("Title ;
         Input input = new Input();
+//        can use Movie[] movies = Movies.Array.findAll();
         String userChoice;
 
         System.out.println("Welcome to the Movie List");
