@@ -27,5 +27,7 @@
 //
 //    public BandMember(String name) {
 //        this.name = name;
-//    }
+//
+//public class Accountant extends Employee {
+//    public abstract String work();
 //}
