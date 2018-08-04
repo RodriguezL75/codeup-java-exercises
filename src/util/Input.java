@@ -19,14 +19,20 @@ public class Input {
     }
 
     public String getString() {
-        return this.getString("Type: ");
+        return this.sc.next();
+
     }
 
 //    use a blueprint analogy to create class
 
     public boolean yesNo() {
-        String result = this.getString("Type yes or no (y/n");
+//        String result = this.getString("Type yes or no (y/n");
+        String result = this.sc.next();
         return (result.equals("y") || result.equals("yes"));
+    }
+    public boolean yesNo(String prompt) {
+        System.out.println(prompt);
+        return yesNo();
     }
 
     public int getInt(int min, int max) {
@@ -40,14 +46,18 @@ public class Input {
     }
 
     public int getInt() {
-//        return scanner.nextInt();
         String input = getString();
+
         try {
             return Integer.valueOf(input);
         } catch (NumberFormatException e) {
             System.out.println("Must input an integer.");
             return getInt();
         }
+    }
+    public int getInt(String prompt){
+        System.out.println(prompt);
+        return getInt();
     }
 
     public double getDouble(double min, double max) {
