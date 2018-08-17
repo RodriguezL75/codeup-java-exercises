@@ -47,7 +47,6 @@ public class Input {
 
     public int getInt() {
         String input = getString();
-
         try {
             return Integer.valueOf(input);
         } catch (NumberFormatException e) {
@@ -59,6 +58,22 @@ public class Input {
         System.out.println(prompt);
         return getInt();
     }
+
+//    public int getInt(){
+//        String userInput = this.getString("Give me a number");
+//        try{
+//            Integer.valueOf(userInput);
+//        } catch (NumberFormatException e){
+//            System.out.println("This is not a valid number");
+//        }
+//        return 0;
+//    }
+
+
+
+
+
+
 
     public double getDouble(double min, double max) {
         System.out.printf("Enter a number between %f and %f%n", min, max);
